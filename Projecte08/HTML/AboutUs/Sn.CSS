@@ -43,6 +43,10 @@ nav ul li img {
     height: 40px;
     margin-right: auto;
 }
+
+.our{
+    text-align: center;
+}
 table{
     border: solid black;
     text-align: center;
