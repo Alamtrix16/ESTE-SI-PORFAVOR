@@ -46,6 +46,10 @@ nav ul li img {
 
 .our{
     text-align: center;
+    font-family: 'josefin sans';
+    padding: 10px;
+    font-size: 50px;
+    color: rgb(65, 65, 65);
 }
 table{
     border: solid black;
@@ -64,10 +68,7 @@ tr{
     text-align: center;
 
 }
-.Tronco{
 
-
-}
 
 .subtitles{
     vertical-align: top;
@@ -87,12 +88,7 @@ tr{
     
 }
 
-.segunda.img{
-
-
-}
-
-.primera.img{
-
+footer{
+    background-color: #bd9a73;
 }
 
