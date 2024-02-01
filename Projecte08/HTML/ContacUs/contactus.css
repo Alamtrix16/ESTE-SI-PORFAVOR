@@ -45,6 +45,18 @@ nav ul li img {
 }
 
 .hed{
-    background-image: ../IMG/Ba.png;
+    background-image:url("../../IMG/Ba.png");
+    text-align: center;
+    font-family: 'josefin sans';
+    padding-left: 41%;
+    padding-top: 15%;
+    font-size: 50px;
+    color: rgb(65, 65, 65);
+    padding-bottom: 15%;
+}
 
+.lul{
+}
+
+.lil{
 }
