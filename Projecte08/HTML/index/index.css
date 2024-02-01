@@ -30,12 +30,21 @@ nav ul li {
     margin: 0 10px;
 }
 
+.headli{
+
+}
+
 nav ul li a {
     color: rgb(58, 55, 55);
     text-decoration: none;
     padding: 0 80px;
     font-size: 16pt;
     font-family:'Monstserrat', sans-serif;
+    transition: box-shadow 0.3s ease;
+}
+
+.headli :hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 nav ul li img {
