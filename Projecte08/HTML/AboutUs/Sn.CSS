@@ -52,7 +52,6 @@ nav ul li img {
     color: rgb(65, 65, 65);
 }
 table{
-    border: solid black;
     text-align: center;
 }
 
@@ -90,5 +89,6 @@ tr{
 
 footer{
     background-color: #bd9a73;
+    
 }
 
