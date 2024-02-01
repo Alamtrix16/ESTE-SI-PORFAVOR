@@ -7,7 +7,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #bd9a73;
     color: white;
 }
@@ -44,19 +46,14 @@ nav ul li img {
     margin-right: auto;
 }
 
-.hed{
-    background-image:url("../../IMG/Ba.png");
+.head{
     text-align: center;
-    font-family: 'josefin sans';
-    padding-left: 41%;
-    padding-top: 15%;
-    font-size: 50px;
-    color: rgb(65, 65, 65);
-    padding-bottom: 15%;
+    font-size: 25pt;
+    font-family: 'josefin sans', sans-serif;    
+    color: #413f3e;
+    height: 300px;
+    background-image: url("../../IMG/Ba.png");
+    
 }
 
-.lul{
-}
 
-.lil{
-}
