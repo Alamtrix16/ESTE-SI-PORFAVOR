@@ -7,10 +7,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
     background-color: #bd9a73;
+    padding: 10px;
     color: white;
 }
 
@@ -47,13 +45,20 @@ nav ul li img {
 }
 
 .head{
-    text-align: center;
-    font-size: 25pt;
-    font-family: 'josefin sans', sans-serif;    
-    color: #413f3e;
-    height: 300px;
+   
     background-image: url("../../IMG/Ba.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;       
     
 }
 
+.head h1{
+    margin:0; 
+    text-align: center;
+    font-size: 60pt;
+    font-family: 'josefin sans', sans-serif;    
+    color: rgb(219, 213, 213);
+    height: 300px;
+}
 
