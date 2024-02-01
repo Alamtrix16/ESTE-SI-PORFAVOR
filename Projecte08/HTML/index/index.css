@@ -44,10 +44,3 @@ nav ul li img {
     margin-right: auto;
 }
 
-.title{
-    transition: font-size 1s ease-in-out;
-}
-
-.title:hover{
-    font-size: 30pt;
-}
