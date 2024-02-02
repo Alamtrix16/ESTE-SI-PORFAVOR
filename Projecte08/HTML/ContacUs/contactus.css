@@ -65,6 +65,7 @@ nav ul li img {
 table{
     width: 100%;
     border-collapse:collapse;
+
 }
 
 tr{
@@ -74,4 +75,24 @@ tr{
 table tr td{
     width: 50%;
     text-align: center;
+}
+
+.Mercadona{
+    padding-top: 100px;
+}
+
+.Papadelta{
+    padding-left: 3% ;
+
+}
+
+
+input{
+    width: 50%;
+    display: block;
+    margin-left: 50%;
+}
+
+.pantorrilla{
+    padding: 50px 0;
 }
