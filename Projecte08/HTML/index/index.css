@@ -10,6 +10,21 @@ header {
     padding: 10px;
     background-color: #bd9a73;
     color: white;
+    height: 46px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    #header-placeholder {
+        display: block;
+    }
+}
+
+#header-placeholder{
+    height: 70px;
+    display: none;
 }
 
 header img {
@@ -55,7 +70,12 @@ nav ul li img {
     font-size: 40pt;
     padding-top: 70px;
 }
- .welcome p{
-    
- }
 
+.welcome .subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20pt;
+    width: 70%;
+}
