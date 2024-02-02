@@ -64,7 +64,6 @@ nav ul li img {
 
 table{
     width: 100%;
-    border: solid black;
     border-collapse:collapse;
 }
 
@@ -73,7 +72,6 @@ tr{
 }
 
 table tr td{
-    border: black solid;
     width: 50%;
     text-align: center;
 }
