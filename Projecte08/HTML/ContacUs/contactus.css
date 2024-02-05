@@ -63,35 +63,27 @@ nav ul li img {
 }
 
 table{
-    width: 100%;
-    border-collapse:collapse;
+
+    margin-left: 15%;
 
 }
 
-tr{
-    padding-left: 15%;
-}
 
 table tr td{
-    width: 50%;
-    padding-left: 350px;
-    text-align: left;
+
 }
 
-.Mercadona{
-    padding-top: 100px;
-}
 
 .Papadelta{
-    padding-left: 1%;
+
     padding-bottom: 5%;
 }
 
 .Text{
     padding-bottom: 1%;
+    font-family:"Josefin Sans", sans-serif;
+    font-weight: bold;
 }
-
-
 
 
 
@@ -103,4 +95,9 @@ input{
 
 .pantorrilla{
     padding: 50px 0;
+}
+
+.maps{
+    padding-left: 80%;
+
 }
