@@ -22,3 +22,25 @@
     from, to { border-color: transparent }
     50% { border-color: orange }
 }
+
+.carousel {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.testimonial {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-size: 16px;
+}
+
+.testimonial p.author {
+  font-size: 12px;
+  color: #999;
+}
