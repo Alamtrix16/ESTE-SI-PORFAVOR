@@ -72,9 +72,10 @@ tr{
 .subtitles{
     vertical-align: top;
     text-align: center;
-    font-size: 200%;
+    font-size: 160%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: gray;
+    padding: 2%;
 }
 
 
