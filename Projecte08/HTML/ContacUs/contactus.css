@@ -69,10 +69,6 @@ table{
 }
 
 
-table tr td{
-
-}
-
 
 .Papadelta{
 
@@ -100,4 +96,9 @@ input{
 .maps{
     padding-left: 80%;
 
+}
+
+.antonio img{
+    width: 0%;
+    border: black 2px solid;
 }
