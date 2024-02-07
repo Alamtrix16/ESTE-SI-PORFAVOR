@@ -128,7 +128,7 @@ nav ul li img {
     padding-top: 50px;
 }
 
-.btn_antes {
+.btnc_antes {
     padding: 10px 25px;
     font-family: "Josefin Sans", sans-serif;
     font-weight: bold;
@@ -140,13 +140,13 @@ nav ul li img {
     display: inline-block;
     text-decoration: none;
 }  
-.btn_despues {
+.btnc_despues {
     border: 2px solid #bd9a73;
     z-index: 1;
     color: rgb(58, 55, 55);
 }
 
-.btn_despues:after {
+.btnc_despues:after {
     position: absolute;
     content: "";
     width: 100%;
@@ -158,16 +158,26 @@ nav ul li img {
     transition: all 0.3s ease;
 }
 
-.btn_despues:hover {
+.btnc_despues:hover {
     color: #ffffff;
 }
 
-.btn_despues:hover:after {
+.btnc_despues:hover:after {
     top: 0;
     height: 100%;
 }
 
-.btn_despues:active {
+.btnc_despues:active {
     top: 2px;
 }
 
+.sub_boton p{
+    font-size: 18pt;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.sub_boton .conocenos{
+    padding-left: 137px;
+}
