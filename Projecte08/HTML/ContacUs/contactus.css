@@ -72,9 +72,14 @@ nav ul li img {
     font-size: 17pt;
 }
 
-.contact p{
+.Formulario .contact p{
     margin: 0;
     padding-top: 35px;
 }
 
-.contact .
+.Formulario{
+    display: flex;
+}
+.Formulario .map{
+    width: 200px;
+}
