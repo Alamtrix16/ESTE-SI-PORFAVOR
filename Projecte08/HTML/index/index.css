@@ -15,6 +15,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 @media screen and (min-width: 600px) {
@@ -180,4 +181,13 @@ nav ul li img {
 
 .sub_boton .conocenos{
     padding-left: 137px;
+    z-index: 1;
+}
+
+footer{
+    background-color: #bd9a73;
+}
+
+div{
+    padding-top: 5%;
 }
