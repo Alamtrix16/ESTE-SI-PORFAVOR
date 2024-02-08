@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    background-color: #d6c0a8;
+    background-color: #ceb396;
 }
 
 header {
@@ -10,6 +10,21 @@ header {
     padding: 10px;
     background-color: #bd9a73;
     color: white;
+    height: 46px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    #header-placeholder {
+        display: block;
+    }
+}
+
+#header-placeholder{
+    height: 70px;
+    display: none;
 }
 
 header img {
@@ -36,6 +51,11 @@ nav ul li a {
     padding: 0 80px;
     font-size: 16pt;
     font-family:'Monstserrat', sans-serif;
+    transition: box-shadow 0.3s ease;
+}
+
+.headli :hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 nav ul li img {
@@ -47,7 +67,7 @@ nav ul li img {
 .our{
     text-align: center;
     font-family: 'josefin sans';
-    padding: 10px;
+    padding: 60px;
     font-size: 50px;
     color: rgb(65, 65, 65);
 }
@@ -59,7 +79,7 @@ table{
     display: block;
     text-align: center;
 
-   
+
 }
 
 tr{
@@ -69,19 +89,20 @@ tr{
 }
 
 
-.subtitles{
+.subtitles h2{
     vertical-align: top;
     text-align: center;
-    font-size: 160%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: gray;
+    font-size: 30pt;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(63, 61, 61);
     padding: 2%;
 }
 
-
-
-
-
+.subtitles p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20pt;
+}
 .titles{
     text-align: right;
     padding-bottom: 50pt;
