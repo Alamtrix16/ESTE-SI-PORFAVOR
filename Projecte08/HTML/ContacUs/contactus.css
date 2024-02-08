@@ -62,44 +62,19 @@ nav ul li img {
     height: 300px;
 }
 
-table{
-
-    margin-left: 15%;
-
+.contact{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    color: rgb(65, 62, 62);
+    font-family: 'josefin sans', sans-serif;
+    font-size: 17pt;
 }
 
-
-
-.Papadelta{
-
-    padding-bottom: 5%;
+.contact p{
+    margin: 0;
+    padding-top: 35px;
 }
 
-.Text{
-    padding-bottom: 1%;
-    font-family:"Josefin Sans", sans-serif;
-    font-weight: bold;
-}
-
-
-
-input{
-    width: 50%;
-    display: block;
-    margin-left: 50%;
-}
-
-.pantorrilla{
-    padding: 50px 0;
-}
-
-.maps{
-    padding-left: 80%;
-
-}
-
-.antonio img{
-    width: 0%;
-    border: black 2px solid;
-}
-
+.contact .
