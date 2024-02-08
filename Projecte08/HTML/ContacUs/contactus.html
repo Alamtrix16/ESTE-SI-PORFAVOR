@@ -7,34 +7,40 @@
     <title>Contact</title>
 </head>
 <body>
+    <div id="header-placeholder"></div>
     <header>
         <nav>
             <ul>
-                <li><a href="../index/index.html"><img src="../../IMG/Logo_Solve.png" alt="SOLVE logo"></a></li>
-                <li><a href="../index/index.html">Home</a></li>
-                <li><a href="../AboutUs/SobreNosotros.html">About Us</a></li>
-                <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-                <li><a href="../ContacUs/contactus.html">Contact Us</a></li>
+                <li><a href="#"><img src="../../IMG/Logo_Solve.png" alt="SOLVE logo"></a></li>
+                <li class="headli"><a href="../index/index.html">🏠Home</a></li>
+                <li class="headli"><a href="../AboutUs/SobreNosotros.html">👨‍💻About Us</a></li>
+                <li class="headli"><a href="#">📞Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <div class="head">
-        <h1>Contact Us</h1>
-        <li></li>
+    <div class="contactanos">
+        <h1>¡Contactanos!</h1>
     </div>
-
-    <div class="contact">
-        <form>    
-            <h2>¡Ponte en contacto con nosotros!</h2>
-            <p>Nombre:</p>
-                <input type="text">
-            <p>Email:</p>
-                <input type="text">
-            <p>Compañia/organizacion:</p>
-                <input type="text">
-            <p>Mensaje:</p>
-                <input type="text" class="mensaje">
-        </form>
+    <div class="Formulario">
+        <div class="contact">
+            <form>    
+                <h2>¡Ponte en contacto con nosotros!</h2>
+                <p>Nombre:</p>
+                    <input type="text">
+                <p>Email:</p>
+                    <input type="text">
+                <p>Compañia/organizacion:</p>
+                    <input type="text">
+                <p>Mensaje:</p>
+                    <textarea name="Mensaje" class="mensaje" cols="39" rows="10"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="map">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5973.822301082574!2d2.4270982545828454!3d41.52786520000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4b4e4409e0875%3A0xc9fbf03a1384100b!2sFundaci%C3%B3n%20TecnoCampus%20Matar%C3%B3-Maresme!5e0!3m2!1ses!2ses!4v1707409921460!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>    
+        </div>
     </div>
 </body>
 </html>
