@@ -7,9 +7,25 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #bd9a73;
     padding: 10px;
+    background-color: #bd9a73;
     color: white;
+    height: 46px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+@media screen and (min-width: 600px) {
+    #header-placeholder {
+        display: block;
+    }
+}
+
+#header-placeholder{
+    height: 70px;
+    display: none;
 }
 
 header img {
@@ -36,30 +52,17 @@ nav ul li a {
     padding: 0 80px;
     font-size: 16pt;
     font-family:'Monstserrat', sans-serif;
+    transition: box-shadow 0.3s ease;
+}
+
+.headli :hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 nav ul li img {
     width: 40px;
     height: 40px;
     margin-right: auto;
-}
-
-.head{
-
-    background-image: url("../../IMG/Ba.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;       
-    
-}
-
-.head h1{
-    margin:0; 
-    text-align: center;
-    font-size: 60pt;
-    font-family: 'josefin sans', sans-serif;    
-    color: rgb(219, 213, 213);
-    height: 300px;
 }
 
 .contact{
@@ -112,4 +115,19 @@ nav ul li img {
     border:none;
     color: white;
     cursor: pointer;
+}
+
+
+.contactanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    color: rgb(65, 62, 62);
+    font-family: 'josefin sans', sans-serif;
+    font-size: 17pt;
+    background-image: url(../../IMG/Ba.png);
+    background-size: cover;
+    padding-bottom: 170px;
+    color: white;
 }
