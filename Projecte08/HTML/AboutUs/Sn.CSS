@@ -111,12 +111,10 @@ tr{
 
 footer{
     background-color: #bd9a73;
-    font-family: 'josefin sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
 
-
-.Paco{
-    font-family: 'josefin sans', sans-serif;
-    font-size:13pt;
-    padding-left: 10px;
+.footer div{
+    padding-top: 5%;
 }
