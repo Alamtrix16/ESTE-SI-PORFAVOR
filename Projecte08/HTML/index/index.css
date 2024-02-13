@@ -181,13 +181,17 @@ nav ul li img {
 
 .sub_boton .conocenos{
     padding-left: 137px;
-    z-index: 1;
+}
+
+main{
+    padding-bottom: 50px;
 }
 
 footer{
     background-color: #bd9a73;
+    font-weight: bold;
 }
 
-div{
+.footer div{
     padding-top: 5%;
 }
