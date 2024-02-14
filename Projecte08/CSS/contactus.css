@@ -136,8 +136,17 @@ footer{
     background-color: #bd9a73;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 .footer div{
     padding-top: 5%;
+}
+
+.TC{
+    white-space: nowrap;
+    font-size: 10pt;
+    padding: 0;
 }
